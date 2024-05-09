@@ -1,0 +1,16 @@
+.upper {
+    color: black ;
+}
+fieldset {
+    
+    width: 500px;
+    font:  small-caps bold 12px/30px Arial, serif;
+}
+textarea{
+    width: 400px;
+    height: 100px;
+}
+button{
+    position: relative;
+    left: 70%;
+}

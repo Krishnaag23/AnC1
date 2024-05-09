@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="message.css">
+</head>
+<body>
+    <div class="upper">
+        <h2>Contact Me</h2>
+        <form action="" onsubmit="showAlert(event)">
+            <fieldset><legend>Message</legend> 
+                <p>
+                    <label for="from">Your message:</label>
+                 <br />
+                    <textarea name="message" id="message" placeholder="Enter text here..."  onclick="this.value=''"></textarea>
+                 </p>   
+                 <button type="submit" class="btn btn-primary">Submit</button>
+            </fieldset>
+             
+                  
+        </form>
+        
+    </div>
+    
+</body>
+</html>
